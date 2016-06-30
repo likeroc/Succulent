@@ -1,0 +1,171 @@
+/*-----------覆写bootstrap------------------------*/
+
+.container-fluid{
+	padding: 15px; 
+	background-color: #f8f8f8;
+	font-family: arial,"微软雅黑",tahoma;
+}
+a, a:hover, a:visited{
+	color: #000;
+	text-decoration:none;
+}
+p{font-size: 12px;margin: 0;}
+.carousel-indicators li{
+	width: 5px;
+	height: 5px;
+}
+.carousel-indicators .active{
+	width: 7px;
+	height: 7px;
+}
+
+@media (max-width: 360px){
+	.carousel{margin: -15px;}
+}
+@media (min-width: 360px){
+	.carousel{margin: -15px;}
+}
+
+/*-----------/覆写bootstrap------------------------*/
+.fluid{
+	padding: 0;
+	margin: 0;
+}
+.content{
+	background-color: #fbf9f5;
+}
+@media (max-width: 360px){
+	.content {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.content-sidebar{
+		display: none;
+	}
+
+}
+@media (min-width: 360px){
+	.content {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.content-sidebar{
+		display: none;
+	}
+
+}
+
+@media (min-width: 570px){
+	.content {
+	    width: 540px;
+	    margin: 0 auto;
+	}
+	.content-body{
+		width: 540px;
+		padding: 10px;
+	}
+	.content-sidebar{
+		display: none;
+	}
+}
+@media (min-width: 760px){
+	.content {
+	    width: 760px;
+	    margin: 30px auto 20px;
+	}
+	.content-body{
+		width: 540px;
+		float: left;
+		border:1px solid #ddd;
+		box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+		padding: 10px;
+	}
+	.content-sidebar{
+		display: block;
+	}
+}
+
+@media (min-width: 800px){
+	.content {
+	    width: 760px;
+	    margin: 30px auto 20px;
+	}
+	.content-body{
+		width: 540px;
+		float: left;
+		border:1px solid #ddd;
+		box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+		padding: 10px;
+	}
+	.content-sidebar{
+		display: block;
+	}
+	
+}
+.section-detail p:last-child{
+	margin-bottom:10px;
+}
+.content-sidebar{
+	width: 180px;
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.side-img img{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+.side-name{
+	padding-left: 10px;
+}
+.section-detail{
+	border:1px solid #e4e4e4; 
+	border-radius: 2px;
+	background-color: #fff;
+	margin-top: 15px;
+}
+.side-section{
+		padding: 0 27px;
+	}
+.myTab{position: relative; }
+.bottom-label p{
+	display: block;
+	color: #fff;
+}
+.bottom-label{
+	position: absolute;
+	right: 10px;
+	left: 10px;
+	bottom: 5px;
+	background-color: rgba(0, 0, 0, 0.4) ;
+	padding: 3px 5px;
+	border-radius: 2px;
+}
+.labelLeft{
+	float: left;
+}
+.labelRight{
+	float: right;
+}
+.prod-img img{
+	width: 100%; 
+	margin-bottom: 10px;
+}
+.type-btn{
+	margin-top: 30px;
+}
+.type-btn .row{
+	width: 90%;
+	margin: 0 auto 15px;
+}
+.btn-type{
+	border:1px solid #A88E74;
+	padding: 4px 15px;
+}
+.type-btn .col-xs-3{padding: 0;}
