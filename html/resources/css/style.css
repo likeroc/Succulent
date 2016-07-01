@@ -1,9 +1,10 @@
 /*-----------覆写bootstrap------------------------*/
 
 .container-fluid{
-	padding: 15px; 
+	padding: 15px 15px 40px; 
 	background-color: #f8f8f8;
 	font-family: arial,"微软雅黑",tahoma;
+
 }
 a, a:hover, a:visited{
 	color: #000;
@@ -164,8 +165,55 @@ p{font-size: 12px;margin: 0;}
 	width: 90%;
 	margin: 0 auto 15px;
 }
+.type-btn .col-xs-3{padding: 0; }
 .btn-type{
 	border:1px solid #A88E74;
 	padding: 4px 15px;
 }
-.type-btn .col-xs-3{padding: 0;}
+.type-btn .col-xs-6{padding: 0;}
+.row.goods-area{
+	margin: 5px 5px 0;
+}
+.goods-area .col-sm-4{
+	padding: 0 5px;
+	margin-bottom: 10px; 
+}
+.goods-area .col-xs-6{
+	padding: 0 5px;
+	margin-bottom: 10px; 
+}
+.goods-font{
+	display: block;
+	height: 32px;
+	overflow: hidden;
+	word-break: break-all;
+	margin-bottom: 5px;
+	color: #333;
+}
+.gs-single{background-color: #fff; }
+.sge-bottom{padding: 0 3px; }
+.btn-buy{
+	background-image: url(../img/showcase.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	bottom: 5px;
+	right: -2px;
+}
+.single-buy{position: relative; padding-top: 5px; padding-bottom: 5px; }
+.myFooter .container-fluid{
+	padding: 6px 15px 2px;
+}
+.myFooter li{
+	width: 25%;
+	text-align: center;
+	
+}
+.myFooter .nav-pills > li + li{
+	margin: 0;
+}
+.myFooter .nav>li>a{padding: 5px 0px; }
+.myFooter .dropdown-menu>li>a{padding: 5px 10px; }
+.myFooter.navbar{min-height:auto;}
